@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02a64f12-7e1f-4288-ae3d-094f11945629" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    <list default="true" id="02a64f12-7e1f-4288-ae3d-094f11945629" name="Default Changelist" comment="update readme and comments to RMIInterceptorVisitorAdapter.java">
+      <change afterPath="$PROJECT_DIR$/../RMIserver/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/RMIserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/src/RMIServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/src/RmiServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RMIserver/src/RmiServerInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/teu/rasp/visitorAdapter/RMIInterceptorVisitorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teu/rasp/visitorAdapter/RMIInterceptorVisitorAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RMIclient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RMIclient/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/teu/rasp/visitorAdapter/RMIInterceptorVisitorAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="287">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/teu/rasp/RaspAgent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -317,12 +324,20 @@
       <workItem from="1560330738030" duration="3470000" />
       <workItem from="1560884506005" duration="1136000" />
       <workItem from="1560887345534" duration="3119000" />
-      <workItem from="1561483746463" duration="1707000" />
+      <workItem from="1561483746463" duration="2233000" />
     </task>
+    <task id="LOCAL-00001" summary="update readme and comments to RMIInterceptorVisitorAdapter.java">
+      <created>1561485595407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561485595408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161532000" />
+    <option name="totallyTimeSpent" value="162058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,13 +365,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32786885" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48940998" visible="true" weight="0.2704918" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51059" side_tool="true" weight="0.29787233" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4969743" weight="0.32786885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -370,6 +385,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update readme and comments to RMIInterceptorVisitorAdapter.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme and comments to RMIInterceptorVisitorAdapter.java" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -514,17 +533,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/teu/rasp/RaspAgent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/teu/rasp/visitorAdapter/RMIInterceptorVisitorAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="287">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
